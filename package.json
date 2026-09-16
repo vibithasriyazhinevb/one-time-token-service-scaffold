@@ -1,0 +1,14 @@
+{
+  "name": "one-time-token-service",
+  "version": "1.0.0",
+  "description": "Redis-backed one-time token service",
+  "type": "module",
+  "main": "token-service.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "ioredis": "^5.3.2",
+    "dotenv": "^16.3.1"
+  }
+}
